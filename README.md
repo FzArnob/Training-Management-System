@@ -21,8 +21,8 @@ A Training Management System (TMS) elevates daily operations by efficiently orga
 ## Key Features:
 
 - Trainee Selection (Application):
+| Simplified application process for efficient trainee onboarding. |
 
-Simplified application process for efficient trainee onboarding.
 - User Management:
 
 Centralized control and organization of user data for seamless administration.
