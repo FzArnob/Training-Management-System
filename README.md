@@ -37,4 +37,5 @@ A Training Management System (TMS) elevates daily operations by efficiently orga
 ```Comprehensive management of both previous and upcoming training data for insightful analysis.```
 
 ## Schema
-![ER_DIAGRAM_Final](https://github.com/FzArnob/Training-Management-System/assets/67764367/c2d1dc70-0d42-4129-8e5c-3e7ce224dfc6)
+
+![class-diagram drawio](https://github.com/FzArnob/Training-Management-System/assets/67764367/288d5cbe-db19-4ac7-a85f-46c8fa20d479)
