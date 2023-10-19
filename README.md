@@ -24,20 +24,14 @@ A Training Management System (TMS) elevates daily operations by efficiently orga
 ```Simplified application process for efficient trainee onboarding.```
 
 - User Management:
-
-Centralized control and organization of user data for seamless administration.
-- Profile Management:
-
-Personalized profiles to track and manage individual progress and information.
-- Course Management:
-
-Easy administration of courses, ensuring a structured and organized training curriculum.
-- Batch Management:
-
-Streamlined handling of training batches for optimal scheduling and coordination.
-- Assignment and Performance Evaluation:
-
-Effective tracking and evaluation tools for assignments and trainee performance.
-- Training Data Management:
-
-Comprehensive management of both previous and upcoming training data for insightful analysis.
+```Centralized control and organization of user data for seamless administration.```
+2. Profile Management:
+```Personalized profiles to track and manage individual progress and information.```
+3. Course Management:
+```Easy administration of courses, ensuring a structured and organized training curriculum.```
+4. Batch Management:
+```Streamlined handling of training batches for optimal scheduling and coordination.```
+5. Assignment and Performance Evaluation:
+```Effective tracking and evaluation tools for assignments and trainee performance.```
+6. Training Data Management:
+```Comprehensive management of both previous and upcoming training data for insightful analysis.```
