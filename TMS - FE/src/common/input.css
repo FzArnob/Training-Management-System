@@ -1,0 +1,233 @@
+input, select {
+    outline:none;
+    border: 2px solid rgb(181, 181, 181);
+}
+
+input:focus, select:focus {
+    outline:none!important; 
+    border: 2px solid #007acc;
+}
+.input-default{
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;    
+
+}
+.select-box{
+    position: relative;
+}
+.select-default{
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(181, 181, 181);
+    position: relative;
+    cursor: pointer;
+}
+.select-top-5{
+    margin-top: 5px;
+}
+.select-right-icon{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+.options-default{
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    z-index: 99;
+    width: calc(100% - 24px);
+    border: 2px solid rgba(125,125,125,0.2);
+}
+.option-default{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+.option-default:hover{
+    background-color: #007acc;
+}
+.input-label{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: -5px;
+}
+.select-label{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: -5px;
+}
+.input-button{
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.input-button:hover {
+    background-color: #005c9a;
+    color: #fff;
+}
+.bottom-text{
+    text-align: center;
+}
+.bottom-button{
+    color: #007acc;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bottom-button:hover{
+    color: #005c9a;
+}
+.add-btn {
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid rgb(181, 181, 181);
+    cursor: pointer;
+}
+.add-btn:hover {
+    background-color: rgba(0,0,0,0.06);
+}
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-top: 5px;    
+}
+option{
+    padding: 5px;
+    font-size: 15px;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #007acc;
+}
+
+.link{
+    font-size: 14px;
+}
+.link:hover{
+    color: #007acc;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.custom-file-upload:active {
+    border: 2px solid #007acc;
+}
+.file-top-5{
+    margin-top: 5px;
+}
+#profilePicture-file{
+    position: absolute;
+    left: 35px;
+}
+#resume-file{
+    position: absolute;
+    left: 35px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: rgb(211, 211, 211);
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input-date{
+    padding: 9px;
+}
+
+.editBtn{
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+    width: fit-content;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.editBtn:hover{
+    background-color: #005c9a;
+}
+.closeBtn{
+    padding: auto;
+    font-size: 20px;
+    width: 38px;
+    margin-left: calc(100% - 35px);
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.closeBtn:hover{
+    color: #007acc;
+}
+.checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -20px;
+  }
+  .checkbox-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .checkbox-inline + .checkbox-inline {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="checkbox"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+@media screen and (max-width: 800px) {
+    .editBtn{
+        margin-left: 100%;
+        transform: translateY(0%);
+        transform: translateX(-100%);
+        width: 80px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+
+.profile-box {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.edit-profile{
+    position: absolute;
+    margin-left: calc(50% + 0px);
+    transform: translateY(45px);
+}
+.delete-profile{
+    position: absolute;
+    margin-left: calc(50% + 110px);
+    transform: translateY(45px);
+}
+@media screen and (max-width: 800px) {
+    .edit-profile{
+        position: relative;
+        width: 120px;
+        margin-left: calc(100% - 260px);
+        transform: translateY(0px);
+    }
+    .delete-profile{
+        position: relative;
+        margin-left: calc(100% - 120px);
+        width: 120px;
+        margin-top: -43px;
+        transform: translateY(0px);
+    }
+}

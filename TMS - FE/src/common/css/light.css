@@ -1,0 +1,29 @@
+.bg1{
+background-color: #ffffff;
+}
+.bg2{
+background-color: #f6f6f6;
+}
+.bg2-change{
+    background-color: #fdfeff;
+}
+.c1{
+color: #252525;
+}
+.c2{
+color: #343434;
+}
+.bg-theme{
+background-color: #007acc;
+}
+.c-theme{
+ color: #007acc;
+}
+.c3{
+    color: #7f7f7f;
+}
+@media screen and (max-width: 800px) {
+    .bg2-change{
+        background-color: #ffffff;
+    }
+}

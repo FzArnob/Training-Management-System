@@ -1,0 +1,25 @@
+.register-box{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    display: block;
+    width: 640px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .register-box{
+        padding: 40px;
+        box-shadow: none;
+        border-radius: unset;
+        margin: auto;
+        width: 320px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .register-box{
+        width: auto;
+    }
+}

@@ -1,0 +1,37 @@
+.login-box{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+}
+.login-error{
+    padding: 15px;
+    background-color: #ffe6ea;
+    color: #ff0044;
+    text-align: center;
+    width: calc(100% - 30px);
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .login-box{
+        position: relative;
+        top: 0px;
+        left: 0;
+        transform: translate(0 , 0);
+        padding: 40px;
+        box-shadow: none;
+        border-radius: unset;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .login-box{
+        width: auto;
+    }
+}
