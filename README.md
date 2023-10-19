@@ -1,4 +1,4 @@
-# Training-Management-System - (TMS)
+![ER_DIAGRAM_Final](https://github.com/FzArnob/Training-Management-System/assets/67764367/23db4fa6-a5cb-47b0-9334-83f0ae7f1450)# Training-Management-System - (TMS)
 
 A Training Management System (TMS) elevates daily operations by efficiently organizing and delivering training. Time saved on administration can now be invested in modernizing the training industry. Make informed decisions and gain a competitive edge by placing the TMS at the core of your operations. "C Academy" is a sample corporation name used in the project.
 
@@ -35,3 +35,6 @@ A Training Management System (TMS) elevates daily operations by efficiently orga
 ```Effective tracking and evaluation tools for assignments and trainee performance.```
 6. Training Data Management:
 ```Comprehensive management of both previous and upcoming training data for insightful analysis.```
+
+## Schema
+![ER_DIAGRAM_Final](https://github.com/FzArnob/Training-Management-System/assets/67764367/c2d1dc70-0d42-4129-8e5c-3e7ce224dfc6)
