@@ -66,13 +66,7 @@ export default function Dashboard() {
     <div align="center" className='w3-animate-right'>
         <div className="box-title c1">Authorized Users</div>
         {data.users.map(user => {
-            user.role.push({
-                roleName: "TRAINER",
-            })
-            user.role.push({
-                roleName: "ADMIN",
-            })
-             return (
+             if(user.role.length > 0) { return (
                 <div className='user-card bg2 c1' onClick={()=>{handleProfileClick(user.email)}}>
                     <div className='row'>
                         <img alt="DP" className="user-photo c1" src={user.profilePicture}/>
@@ -90,6 +84,7 @@ export default function Dashboard() {
                     </div>
                 </div>
             )
+                            }
         })}
     </div>
     
