@@ -1,0 +1,7 @@
+# Dockerfile for MySQL
+FROM mysql:latest
+
+ENV MYSQL_DATABASE=tms
+ENV MYSQL_ROOT_PASSWORD=root
+
+COPY ./database_sql/tms.sql /docker-entrypoint-initdb.d/

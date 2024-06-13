@@ -1,0 +1,68 @@
+.batches-box {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.batch-status{
+    padding: 20px;
+    text-align: center;
+}
+.batch-card{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px;
+}
+.batch-card:hover{
+    box-shadow: 0px 0px 12px rgba(0, 122, 204,0.3);
+}
+.v-center{
+    align-items: center;
+}
+.edit-batch{
+    padding: 7px 15px;
+    width: 100%;
+    text-align: center;
+    height: 36px;
+    margin: auto;
+    margin-top: 20px;
+}
+.card-code{
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20px;
+}
+.batch-column-50{
+    width: calc(50% - 40px);
+}
+.card-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-des{
+    font-size: 14px;
+    height: 100px;
+    overflow-y: auto;
+}
+@media screen and (max-width: 800px) {
+    .batch-column-50{
+        width: calc(100% - 40px);
+    }
+    .card-name{
+        text-align: center;
+    }
+    .edit-batch{
+        transform: translateX(0);
+    }
+    .card-des{
+        text-align: center;
+    }
+}

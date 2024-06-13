@@ -1,0 +1,68 @@
+.table { 
+    width: 100%;
+    border-collapse: collapse;   
+    border: 2px solid #cdebff; 
+		}
+.table tbody tr:nth-of-type(odd) { 
+  background: #f1f9ff; 
+		}
+.table th { 
+  background-color: none;
+  font-size: 15px;
+  padding: 25px;
+  color: #007acc; 
+  font-weight: 400; 
+  border: 2px solid #cdebff;
+  text-align: center; 
+}
+.table td { 
+    border: 1px solid #cdebff;
+    text-align: center; 
+    font-size: 15px;
+    padding: 15px;
+    color: #2b4c62; 
+}
+
+@media screen and (max-width: 840px) {
+  /* Force table to not be like tables anymore */
+	.table table, .table thead, .table tbody, .table th, .table td, .table tr  { 
+		display: block; 
+	}
+  /* Hide table headers (but not display: none;, for accessibility) */
+	.table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+  .table td { 
+    text-align: left;
+    /* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px dotted #cdebff; 
+		position: relative;
+		padding-left: 50%;
+  }
+  .table td:before { 
+		position: absolute;
+    font-size: 15px;
+		left: 20px;
+		color: #007acc; 
+    font-weight: 700; 
+    text-align: left;
+	}
+  .table td:nth-of-type(1):before { content: "Student Email : "; }
+  .table td:nth-of-type(2):before { content: "Student Name : "; }
+	.table td:nth-of-type(3):before { content: "Student ID: "; }
+	.table td:nth-of-type(4):before { content: "Address: "; }
+	.table td:nth-of-type(5):before { content: "Age: "; }
+  .table td:nth-of-type(5) { border-bottom: 3px solid #cdebff; }
+}
+@media screen and (max-width: 640px) {
+  .table td {
+    padding-left: 10px;
+    text-align: center;
+   }
+   .table td:before{
+    position: initial;
+   }
+}
