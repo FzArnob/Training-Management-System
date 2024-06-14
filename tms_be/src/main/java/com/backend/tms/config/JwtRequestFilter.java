@@ -59,6 +59,8 @@ public class JwtRequestFilter extends OncePerRequestFilter{
 			logger.info("Public access: upload File");
 		} else if (url.contains("/api/downloadFile/")) {
 			logger.info("Public access: download File");
+		} else if (url.contains("health")) {
+			logger.info("Health Check");
 		} else {
 			logger.warn("Token should start with Bearer");
 		}
