@@ -1,0 +1,10 @@
+<div className='column-50'>
+                    <div className='batch-card bg2 full-20 row'>
+                        <div className='card-code bg-theme'>JB002</div>
+                        <div className='space'></div>
+                        <div className='card-info'>
+                            <div className='card-name c1'>Java Batch 002</div>
+                            <div className='card-des c3'>This is a batch for Java Backend team.</div>
+                        </div>
+                    </div>
+                </div>

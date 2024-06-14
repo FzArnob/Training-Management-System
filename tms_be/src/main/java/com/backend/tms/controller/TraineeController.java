@@ -14,8 +14,12 @@ import javax.validation.Valid;
 @CrossOrigin
 public class TraineeController {
 
-	@Autowired
+	final
     TraineeService traineeService;
+
+    public TraineeController(TraineeService traineeService) {
+        this.traineeService = traineeService;
+    }
 
     @PostMapping({"/api/trainee/apply"})
     public ResponseEntity<?> createAccount(@Valid @RequestBody User user) throws Exception {

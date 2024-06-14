@@ -1,3 +1,4 @@
 FROM openjdk:17-jdk-alpine
+COPY Files-Upload /Files-Upload
 COPY ./target/TMS-0.0.1-SNAPSHOT.jar /tms.jar
 ENTRYPOINT ["java", "-jar", "/tms.jar"]

@@ -13,8 +13,12 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 public class UserController {
 
-    @Autowired
+    final
     UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping ("/api/user/get/{email}")
     public ResponseEntity<?> getUser(@RequestHeader (name="Authorization") String token, @PathVariable String email) {
